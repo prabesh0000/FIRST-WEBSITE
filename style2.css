@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    /* background-color: rgba(239, 242, 162, 0.946); */
+    background: url(7.jpg);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Tahoma, sans-serif;
+} 
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: rgb(129, 184, 202);
+    border: 2px solid rgb(51, 86, 102);
+    border-radius: 10px;
+}
+  .label{ 
+    padding: 20px 70px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(130, 47, 19);
+  }
+
+.login-form{
+    padding: 20px 40px;
+}
+.login-form.font{
+    font-size: 18px;
+    color: bisque;
+    margin: 5px   0;
+    
+}
+.login-form input{
+    height: 40px;
+    width:350px ;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.login-form .font2{
+    margin-top: 20px;
+}
+
+.login-form button{
+    margin: 45px 0 30px 0;
+    height:  45px;
+    width: 345px;
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(97, 97, 243);
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+
+.login-form #email_error,
+.login-form #NO_MESSAGE{
+    margin-top: 5px;
+    font-size: 18px;
+    width: 365;
+    color: rgb(162, 15, 15);
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.505);
+    border-radius: 20px;
+    padding: 3px;
+    display: none;
+}
